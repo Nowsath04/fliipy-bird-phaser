@@ -5,7 +5,7 @@ import PreloadScene from "./scene/PreloadScene";
 import ScoreScene from "./scene/ScoreScene";
 import PauseScene from "./scene/PauseScene";
 
-const WIDTH = 800
+const WIDTH = 897
 const HEIGHT = 600
 const BIRD_POSITION = { x: WIDTH * 0.1, y: HEIGHT / 2 }
 

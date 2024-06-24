@@ -7,7 +7,7 @@ class PreloadScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("sky", "assets/sky.png")
+        this.load.image("sky", "assets/sky.jpg")
         this.load.spritesheet("bird", "assets/birdSprite.png", {
             frameWidth: 16,
             frameHeight: 16
@@ -18,9 +18,7 @@ class PreloadScene extends Phaser.Scene {
     }
 
     create() {
-
         this.scene.start("MenuScene");
-
     }
 
 
